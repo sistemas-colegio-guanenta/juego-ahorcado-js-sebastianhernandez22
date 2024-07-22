@@ -1,6 +1,6 @@
 # Juego del Ahorcado con HTML y Javascript
 
-En este juego vamos a tener un tablero de tipo "querty".  Al igual que el juego de la vida real, seleccionaremos una letra de una palabra oculta.  Si la letra coincide se dibuja en los recuadros blancos, de lo contrario se dibuja una parte del ahorcado hasta que este es completamente dibujado, con todo y la soga de la horca, y el juego termina.
+En este juego vamos a tener un tablero de tipo "qwerty".  Al igual que el juego de la vida real, seleccionaremos una letra de una palabra oculta.  Si la letra coincide se dibuja en los recuadros blancos, de lo contrario se dibuja una parte del ahorcado hasta que este es completamente dibujado, con todo y la soga de la horca, y el juego termina.
 
 Si el usuario adivina la palabra, el juego termina felicitando al usuario.  Las letras son eliminadas del teclado una vez pulsadas para evitar que el usuario las pulse dos veces.
 

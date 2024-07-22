@@ -12,8 +12,8 @@
 				text-align:center;
 			}
 			#miCanvas{
-				border:dotted 2px yellow;
-				background:green;	
+				border:dotted 2px rgb(0, 0, 0);
+				background:rgb(184, 133, 226);	
 			}
 		</style>
 		<script>
@@ -22,8 +22,8 @@
 			var canvas;
 			var palabra;
 			var letras = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
-			var colorTecla = "purple";
-			var colorMargen = "yellow";
+			var colorTecla = "blue";
+			var colorMargen = "white";
 			var inicioX = 200;
 			var inicioY = 300;
 			var lon = 35;
@@ -36,16 +36,16 @@
 			var aciertos = 0;
 			var errores = 0;
 			//
-			palabras_array.push("PEGASO");
-			palabras_array.push("AFRODITA");
-			palabras_array.push("ATENEA");
-			palabras_array.push("HARES");
-			palabras_array.push("CRONOS");
-			palabras_array.push("HERMES");
-			palabras_array.push("DIONISIO");
-			palabras_array.push("PERSEO");
-			palabras_array.push("POSEIDON");
-			palabras_array.push("APOLO");
+			palabras_array.push("SEBASTIAN");
+			palabras_array.push("KATA");
+			palabras_array.push("LUZ");
+			palabras_array.push("ANGELICA");
+			palabras_array.push("FELIPE");
+			palabras_array.push("GERMAN");
+			palabras_array.push("CHALARCA");
+			palabras_array.push("GINA");
+			palabras_array.push("RUBY");
+			palabras_array.push("DANIEL");
 			//
 			function Tecla(x, y, ancho, alto, letra){
 				this.x = x;
@@ -186,7 +186,7 @@
 				if(errores <5 ){
 					ctx.fillText("Muy bien, la palabra es:", 110, 280);	
 				} else {
-					ctx.fillText("Lo sentimos, la palabra era:", 110, 280);
+					ctx.fillText("Bb no le sabes, la palabra era:", 110, 280);
 				}
 				ctx.font = "bold 80px Courier";
 				lon = (canvas.width - (palabra.length*48))/2;
